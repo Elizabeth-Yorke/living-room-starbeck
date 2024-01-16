@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: black;
+    color: #fad209;
+    font-size: 1.5rem;
+}
+
+nav .nav-link {
+    color: #fad209 !important;
+}
+
+/* -- Branding Strip -- */
+
+.gold-stripe {
+    background-color: #fad209;
+    height: 20px;
+}
+
+.branding-strip {
+    background-color: #10B233;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* -- Colours -- */
+
+.color-scheme-a {
+    background-color: #10B233;
+    color: #000000;
+}
+
+.color-scheme-b {
+    background-color: #000000;
+    color: #fad209;
+}
+
+/* --  -- */
+
+
+
+/* --  -- */
