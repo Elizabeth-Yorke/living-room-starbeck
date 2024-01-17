@@ -1,19 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 
 body {
     background-color: black;
-    color: #fad209;
+    color: #F29727;
     font-size: 1.5rem;
 }
 
 nav .nav-link {
-    color: #fad209 !important;
+    color: #F29727 !important;
 }
 
 /* -- Branding Strip -- */
 
 .gold-stripe {
-    background-color: #fad209;
+    background-color: #F29727;
     height: 20px;
 }
 
@@ -24,19 +25,47 @@ nav .nav-link {
     text-align: center;
 }
 
+.slogan {
+    font-family: 'Kaushan Script', cursive;
+}
+
 /* -- Colours -- */
 
-.color-scheme-a {
+.color-scheme-ax {
+    background-color: #000000;
+    color: #10B233;
+}
+
+.color-scheme-ay {
     background-color: #10B233;
     color: #000000;
 }
 
-.color-scheme-b {
+.color-scheme-bx {
     background-color: #000000;
-    color: #fad209;
+    color: #F29727;
 }
 
-/* --  -- */
+.color-scheme-bx {
+    background-color: #F29727;
+    color: #000000;
+}
+
+.color-scheme-cx {
+    background-color: #075F1B;
+    color: #FFFFFF;
+}
+
+.color-scheme-cy {
+    background-color: #FFFFFF;
+    color: #075F1B;
+}
+
+/* -- Opening Times -- */
+
+.opening-times {
+
+}
 
 
 
