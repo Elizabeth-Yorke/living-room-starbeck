@@ -74,9 +74,13 @@ nav .nav-link {
 /* -- Opening Times -- */
 
 .opening-times {
-    padding: 20px, 20px, 20px, 40px;
+    padding: 20px;
     margin: 20px;
-    text-align: center;
+}
+
+.opening-times table {
+    width: 50%;
+    margin: 0 auto;
 }
 
 
