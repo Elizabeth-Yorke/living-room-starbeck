@@ -33,11 +33,11 @@ nav .nav-link {
 
 .color-scheme-ax {
     background-color: #000000;
-    color: #10B233;
+    color: #FFFFFF;
 }
 
 .color-scheme-ay {
-    background-color: #10B233;
+    background-color: #FFFFFF;
     color: #000000;
 }
 
@@ -46,7 +46,7 @@ nav .nav-link {
     color: #F29727;
 }
 
-.color-scheme-bx {
+.color-scheme-by {
     background-color: #F29727;
     color: #000000;
 }
@@ -61,22 +61,38 @@ nav .nav-link {
     color: #075F1B;
 }
 
+/* -- Introduction -- */
+
+.introduction {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
 .awards {
     background: url(../images/awards.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 200px;
-    margin-top: 20px;
-    margin-right: 20px;
+    height: 340px;
+    margin: 20px 20px 20px 0;
 }
 
 /* -- Opening Times -- */
 
 .opening-times {
-    padding: 20px, 20px, 20px, 40px;
+    padding: 20px;
     margin: 20px;
     text-align: center;
+}
+
+.opening-times-table {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.opening-times-table td {
+    padding: 0 15px;
 }
 
 
