@@ -84,26 +84,21 @@ nav .nav-link {
 }
 
 .image {
-    margin: 20px 20px 20px 0;
     padding: 0;
     width: 100%;
-}
-
-.index-box {
-    padding: 20px;
-    width: 100%;
+    border-radius: 20px;
 }
 
 /* -- Opening Times -- */
 
 .opening-times {
-    padding: 20px;
-    text-align: center;
+    width: auto;
+    align-items: center;
 }
 
 .opening-times-table {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     font-size: medium;
 }
 
@@ -114,9 +109,8 @@ nav .nav-link {
 /* -- Weekly Activities -- */
 
 .weekly-activities {
-    padding: 20px;
-    text-align: center;
-    margin: 20px;
+    width: auto;
+    align-items: center;
 }
 
 .weekly-activities-table {
@@ -150,3 +144,11 @@ nav .nav-link {
 .contact-us-item {
     font-size: 14px;
 }
+
+/* -- Text Box Styling -- */
+
+.index-box {
+    padding: 20px;
+    width: 100%;
+}
+
