@@ -116,8 +116,7 @@ nav .nav-link {
 .weekly-activities-table {
     padding: 0;
     margin: 0 auto;
-    width: 80%;
-    font-size: small;
+    font-size: medium;
 }
 
 .weekly-activities-table td {
@@ -150,5 +149,6 @@ nav .nav-link {
 .index-box {
     padding: 20px;
     width: 100%;
+    border-radius: 20px;
 }
 
