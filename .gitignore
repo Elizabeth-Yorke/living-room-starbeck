@@ -1,9 +1,118 @@
-core.Microsoft*
-core.mongo*
-core.python*
-env.py
-__pycache__/
-*.py[cod]
-node_modules/
-.github/
-cloudinary_python.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon Link -->
+
+<link rel="icon" type="image/ico" href="assets/images/favicon.ico">
+
+<!-- Bootstrap Link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Fontawesome Link -->
+
+    <script src="https://kit.fontawesome.com/b1a8406ee7.js" crossorigin="anonymous"></script>
+
+<!-- CSS Link -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Page Title -->
+
+    <title>Living Room Starbeck</title>
+  </head>
+
+<!-- Body starts here -->
+
+<body>
+    <header>
+
+<!-- Navbar from Bootstrap -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" alt="logo" style="height:50px; width:50px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<!-- Branding Strip -->
+
+        <div class="gold-stripe"></div>
+        <div class="branding-strip color-scheme-cx">
+            <h2><strong>Living Room Starbeck</strong></h2>
+            <h3 class="slogan"><em>By community, for community, in community!</em></h3>            
+        </div>
+        <div class="gold-stripe"></div>
+    </header>
+
+<!-- Introduction -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 color-scheme-ax first-half-1">
+        <section>
+            <div class="introduction color-scheme-cy">
+                <h3 class="text-uppercase"><strong><em>Introduction</em></strong></h3>
+                <hr class="block-divider block-divider--short">
+                <p>Living Room Starbeck is an award winning community cafe where every customer is a new friend. The cafe provides exceptional value food and drink as well as a safe space for you and your loved ones to find friendship, help and support when you need it most.</p>
+            </div>
+        </section>
+        </div>
+        <div class="col-md-6 color-scheme-ax second-half-1">
+            <div class="container-fluid awards"></div>
+        </div>
+    </div>
+</div>
+<div class="gold-stripe"></div>
+
+<!-- Opening Times -->
+
+<div class="container-fluid">
+    <div class="row color-scheme-cx">
+        <div class="col-md-6 color-scheme-cx first-half-2">
+            <div class="container-fluid awards"></div>
+        </div>
+        <div class="col-md-6 second-half-2">
+        <section>
+            <div class="opening-times color-scheme-ay">
+                <h3 class="text-uppercase"><strong><em>Opening Times</em></strong></h3>
+                <hr class="block-divider block-divider--short">
+                <table class="opening-times-table">
+                <tr><td>Monday</td><td>closed</td><td></td></tr>
+                <tr><td>Tuesday</td><td>9am</td><td>4pm</td></tr>
+                <tr><td>Wednesday</td><td>9am</td><td>4pm</td></tr>
+                <tr><td>Thursday</td><td>9am</td><td>4pm</td></tr>
+                <tr><td>Friday</td><td>9am</td><td>4pm</td></tr>
+                <tr><td>Weekend</td><td>closed</td><td></td></tr>
+            </div>
+        </section>
+        
+        </div>
+    </div>
+</div>
+<div class="gold-stripe"></div>
+</body>
+</html>
