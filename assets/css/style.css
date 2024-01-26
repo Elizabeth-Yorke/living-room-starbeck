@@ -80,7 +80,12 @@ nav .nav-link {
 
 .introduction {
     padding: 20px;
+}
+
+.introduction-text {
+    padding: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .image {
@@ -92,8 +97,13 @@ nav .nav-link {
 /* -- Opening Times -- */
 
 .opening-times {
-    width: auto;
-    align-items: center;
+    padding: 20px;
+}
+
+.opening-times-text {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 .opening-times-table {
@@ -103,30 +113,36 @@ nav .nav-link {
 }
 
 .opening-times-table td {
-    padding: 0 15px;
+    padding: 0 5px;
 }
 
 /* -- Weekly Activities -- */
 
 .weekly-activities {
-    width: auto;
-    align-items: center;
+    padding: 20px;
+}
+
+.weekly-activities-text {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 .weekly-activities-table {
-    padding: 0;
     margin: 0 auto;
+    width: 100%;
     font-size: medium;
 }
 
 .weekly-activities-table td {
-    padding: 5px 15px;
+    padding: 0 5px;
 }
 
 /* -- Find Us -- */
 
 #map-wrapper {
     height: fit-content;
+    padding: 20px;
 }
 
 #map {
@@ -137,19 +153,16 @@ nav .nav-link {
 
 .contact-us {
     padding: 20px;
+}
+
+.contact-us-text {
+    margin-top: 20px;
+    padding: 20px;
     text-align: center;
 }
 
 .contact-us-item {
     font-size: 14px;
-}
-
-/* -- Text Box Styling -- */
-
-.index-box {
-    padding: 20px;
-    width: 100%;
-    border-radius: 20px;
 }
 
 /* -- Footer -- */
@@ -160,8 +173,6 @@ nav .nav-link {
     text-align: center;
     text-decoration: none;
     color:#FFFFFF;
-    margin: 0;
-    border: 0;
 }
 
 .facebook {
@@ -170,8 +181,6 @@ nav .nav-link {
     text-align: center;
     text-decoration: none;
     color:#FFFFFF;
-    margin: 0;
-    border: 0;
 }
 
 .foodbank {
@@ -180,8 +189,6 @@ nav .nav-link {
     text-align: center;
     text-decoration: none;
     color:#FFFFFF;
-    margin: 0;
-    border: 0;
 }
 
 .church {
@@ -190,8 +197,6 @@ nav .nav-link {
     text-align: center;
     text-decoration: none;
     color:#FFFFFF;
-    margin: 0;
-    border: 0;
 }
 
 .footer {
@@ -200,4 +205,23 @@ nav .nav-link {
     border: 0;
 }
 
+/* -- Media Queries -- */
+
+@media screen and (min-width: 770px) {
+    .introduction-text {
+        margin-bottom: 0;
+    }
+
+    .opening-times-text {
+        margin-top: 0;
+    }
+
+    .weekly-activities-text {
+        margin-bottom: 0;
+    }
+
+    .contact-us-text {
+        margin-top: 0;
+    }
+}
 
