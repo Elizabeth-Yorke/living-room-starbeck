@@ -205,6 +205,59 @@ nav .nav-link {
     border: 0;
 }
 
+/* -- MENU PAGE -- */
+
+/* -- Disclaimer -- */
+
+.disclaimer {
+    text-align: center;
+    padding: 20px;
+}
+
+.disclaimer p {
+    font-size:small;
+}
+
+/* -- Brunch Menu -- */
+
+.brunch-menu {
+    padding: 20px;
+}
+
+.brunch-menu-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.brunch-menu p {
+    font-size: medium;
+}
+
+.brunch-menu li {
+    text-align: left;
+    font-size: medium;
+}
+
+/* -- Lunch Menu -- */
+
+.lunch-menu {
+    padding: 20px;
+}
+
+.lunch-menu-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.lunch-menu p {
+    font-size: medium;
+}
+
+.lunch-menu li {
+    text-align: left;
+    font-size: medium;
+}
+
 /* -- Media Queries -- */
 
 @media screen and (min-width: 770px) {
