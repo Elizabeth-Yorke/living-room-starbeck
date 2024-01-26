@@ -141,7 +141,7 @@ nav .nav-link {
 /* -- Find Us -- */
 
 #map-wrapper {
-    height: fit-content;
+    height: 100%;
     padding: 20px;
 }
 
@@ -192,11 +192,11 @@ nav .nav-link {
 }
 
 .church {
-    padding: 20px 0;
     font-size: small !important;
     text-align: center;
     text-decoration: none;
     color:#FFFFFF;
+    padding: 20px 0;
 }
 
 .footer {
