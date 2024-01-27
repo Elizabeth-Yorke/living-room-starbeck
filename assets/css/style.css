@@ -117,6 +117,15 @@ nav .nav-link {
     padding: 0 5px;
 }
 
+.cafe-a {
+    padding: 0;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* -- Weekly Activities -- */
 
 .weekly-activities {
@@ -318,6 +327,108 @@ nav .nav-link {
     font-size: medium;
 }
 
+/* -- CLASSES PAGE -- */
+
+/* -- Extend -- */
+
+.extend {
+    padding: 20px;
+}
+
+.extend-text {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+/* -- Stay and Play -- */
+
+.stay-play {
+    padding: 20px;
+}
+
+.stay-play-text {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+/* -- Coffee and Craft -- */
+
+.coffee-craft {
+    padding: 20px;
+}
+
+.coffee-craft-text {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+/* -- Coffee that Cares -- */
+
+.coffee-cares {
+    padding: 20px;
+}
+
+.coffee-cares-text {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+/* -- Foodbank -- */
+
+.foodbank {
+    padding: 20px;
+}
+
+.foodbank-text {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.foodbank-image {
+    padding: 0;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* -- Gardening -- */
+
+.gardening {
+    padding: 20px;
+}
+
+.gardening-text {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+/* -- Parish Pantry -- */
+
+.parish-pantry {
+    padding: 20px;
+}
+
+.parish-pantry-text {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
 /* -- Media Queries -- */
 
 @media screen and (min-width: 770px) {
@@ -340,5 +451,34 @@ nav .nav-link {
     .contact-us-text {
         margin-top: 0;
     }
+
+    .extend-text {
+        margin-bottom: 0;
+    }
+
+    .stay-play-text {
+        margin-top: 0;
+    }
+
+    .coffee-craft-text {
+        margin-bottom: 0;
+    }
+
+    .coffee-cares-text {
+        margin-top: 0;
+    }
+
+    .foodbank-text {
+        margin-bottom: 0;
+    }
+
+    .gardening-text {
+        margin-top: 0;
+    }
+
+    .parish-pantry-text {
+        margin-bottom: 0;
+    }
+
 }
 
