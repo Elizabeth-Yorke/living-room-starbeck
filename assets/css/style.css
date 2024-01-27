@@ -342,6 +342,15 @@ nav .nav-link {
     font-size: large;
 }
 
+.extend-image {
+    padding: 0;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
 /* -- Stay and Play -- */
 
 .stay-play {
@@ -379,6 +388,15 @@ nav .nav-link {
     text-align: center;
     margin-top: 20px;
     font-size: large;
+}
+
+.coffee-cares-image {
+    padding: 0;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 /* -- Foodbank -- */
