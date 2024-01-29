@@ -76,6 +76,23 @@ nav .nav-link {
     color: #075F1B;
 }
 
+/* -- Hero Image -- */
+
+.hero-image {
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/images/cake-a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.cake-a {
+    padding: 0;
+    width: 100%;
+}
+
 /* -- Introduction -- */
 
 .introduction {
@@ -542,6 +559,11 @@ nav .nav-link {
 /* -- Media Queries -- */
 
 @media screen and (min-width: 770px) {
+
+    .hero-image {
+        height: 300px;
+    }
+
     .introduction-text {
         margin-bottom: 0;
     }
