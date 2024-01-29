@@ -169,9 +169,20 @@ nav .nav-link {
     font-size: medium;
 }
 
-.information {
-    font-size: large;
-    margin-top: 20px;
+/* -- Workshops -- */
+
+.workshops {
+    padding: 20px;
+}
+
+.workshops-text {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.workshops-text p {
+    font-size: medium;
 }
 
 /* -- Find Us -- */
@@ -458,6 +469,54 @@ nav .nav-link {
 
 /* -- SUPPORT US PAGE -- */
 
+/* -- ethos --*/
+
+.ethos {
+    padding: 20px;
+}
+
+.ethos-text {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+/* -- awards --*/
+
+.awards-blurb {
+    padding: 20px;
+}
+
+.awards-blurb-text {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.awards-blurb-image {
+    padding: 0;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* -- donations --*/
+
+.donations {
+    padding: 20px;
+}
+
+.donations-text {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
 .donations-image {
     padding: 0;
     border-radius: 20px;
@@ -467,13 +526,17 @@ nav .nav-link {
     width: 50%;
 }
 
-.awards-image {
-    padding: 0;
-    border-radius: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+/* -- volunteering --*/
+
+.volunteering {
+    padding: 20px;
+}
+
+.volunteering-text {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
 }
 
 /* -- Media Queries -- */
@@ -493,6 +556,10 @@ nav .nav-link {
 
     .events-text {
         margin-top: 0;
+    }
+
+    .workshops-text {
+        margin-bottom: 0;
     }
 
     .contact-us-text {
@@ -525,6 +592,22 @@ nav .nav-link {
 
     .parish-pantry-text {
         margin-bottom: 0;
+    }
+
+    .ethos-text {
+        margin-bottom: 0;
+    }
+
+    .awards-blurb-text {
+        margin-top: 0;
+    }
+
+    .donations-text {
+        margin-bottom: 0;
+    }
+
+    .volunteering-text {
+        margin-top: 0;
     }
 
 }
